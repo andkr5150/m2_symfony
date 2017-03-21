@@ -1,0 +1,7 @@
+andkrm2.symfony:
+    resource: "@andkrm2_symfonyBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

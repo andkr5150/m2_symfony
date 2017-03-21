@@ -1,0 +1,7 @@
+andkrm2.symfony_post:
+    resource: "@andkrm2_symfonyBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+andkrm2.symfony_homepage:
+    path:     /
+    defaults: { _controller: andkrm2_symfonyBundle:Default:index }
